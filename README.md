@@ -1,68 +1,121 @@
-# DataStructuresLearn
+<div align="center">
 
-王道计算机考研 408 数据结构课程练习题代码实现。
+# 📚 DataStructuresLearn
 
-## 项目结构
+**王道计算机考研 408 数据结构课程练习题代码实现**
+
+[![C++20](https://img.shields.io/badge/C++-20-00599C?logo=c%2B%2B)](https://en.cppreference.com/w/cpp/20)
+[![CMake](https://img.shields.io/badge/CMake-4.2+-064F8C?logo=cmake)](https://cmake.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+</div>
+
+---
+
+## ✨ 项目简介
+
+本项目是 [王道计算机考研](https://www.cskaoyan.com/) 408 数据结构课程配套练习题的 **C++ 代码实现**。
+
+涵盖线性表、栈与队列、树与二叉树、图、查找、排序等核心章节，代码力求简洁清晰，适合考研复习与面试准备。
+
+---
+
+## 📁 项目结构
 
 ```
 DataStructuresLearn/
-├── Start/              # 入门练习
-│   └── Fibonac.cpp     # 斐波那契数列（递归 vs 迭代性能对比）
-├── LinearList/         # 线性表
-│   └── MinValueDel.cpp # 删除顺序表中最小值元素
-├── CMakeLists.txt      # CMake 构建配置
-└── .gitignore          # Git 忽略规则
+├── 📂 Start/                    # 入门热身
+│   └── Fibonac.cpp              # 斐波那契数列（递归 vs 迭代性能对比）
+│
+├── 📂 LinearList/               # 第二章 · 线性表
+│   └── MinValueDel.cpp          # 删除顺序表中的最小值元素
+│
+├── 📂 StackQueue/               # 第三章 · 栈和队列（待补充）
+├── 📂 Tree/                     # 第四章 · 树与二叉树（待补充）
+├── 📂 Graph/                    # 第五章 · 图（待补充）
+├── 📂 Search/                   # 第六章 · 查找（待补充）
+├── 📂 Sort/                     # 第七章 · 排序（待补充）
+│
+├── CMakeLists.txt               # CMake 构建配置
+└── .gitignore                   # Git 忽略规则（已屏蔽 macOS 屎山文件）
 ```
 
-## 环境要求
+---
 
-- **编译器**：支持 C++20 的编译器（GCC 10+ / Clang 12+ / MSVC 2019+）
-- **构建工具**：CMake 4.2+
-- **IDE**：CLion（推荐）或 VS Code
+## 🛠️ 环境要求
 
-## 构建与运行
+| 依赖 | 版本要求 |
+|------|----------|
+| 编译器 | GCC 10+ / Clang 12+ / MSVC 2019+ |
+| C++ 标准 | **C++20** |
+| 构建工具 | CMake 4.2+ |
+| 推荐 IDE | CLion / VS Code |
 
-### 使用 CMake
+---
+
+## 🚀 快速开始
+
+### 方式一：命令行（CMake）
 
 ```bash
-# 创建构建目录
+# 1. 克隆仓库
+git clone https://github.com/sujianyuhi/DataStructuresLearn.git
+cd DataStructuresLearn
+
+# 2. 创建构建目录
 mkdir build && cd build
 
-# 生成构建文件
-cmake ..
+# 3. 生成构建文件 & 编译
+cmake .. && make
 
-# 编译
-make
-
-# 运行
+# 4. 运行
 ./DataStructuresLearn
 ```
 
-### 使用 CLion
+### 方式二：CLion（推荐）
 
-直接用 CLion 打开项目根目录，IDE 会自动识别 `CMakeLists.txt` 并配置构建环境。
+1. 打开 CLion → `File` → `Open`
+2. 选择项目根目录，CLion 自动识别 `CMakeLists.txt`
+3. 点击右上角 ▶️ 运行按钮即可
 
-## 题目列表
+---
 
-### Start — 入门
+## 📋 题目清单
 
-| 文件 | 题目 | 知识点 |
-|------|------|--------|
-| [Fibonac.cpp](Start/Fibonac.cpp) | 斐波那契数列 | 递归 vs 迭代、时间复杂度对比、性能测试 |
+### 🌱 Start — 入门
 
-### LinearList — 线性表
+| 文件 | 题目 | 核心知识点 | 难度 |
+|:----:|------|-----------|:----:|
+| [Fibonac.cpp](Start/Fibonac.cpp) | 斐波那契数列 | 递归 vs 迭代、时间复杂度分析、性能测试 | ⭐ |
 
-| 文件 | 题目 | 知识点 |
-|------|------|--------|
-| [MinValueDel.cpp](LinearList/MinValueDel.cpp) | 删除顺序表最小值元素 | 顺序表、查找最小值、删除操作 |
+### 📏 LinearList — 线性表
 
-## 代码风格
+| 文件 | 题目 | 核心知识点 | 难度 |
+|:----:|------|-----------|:----:|
+| [MinValueDel.cpp](LinearList/MinValueDel.cpp) | 删除顺序表最小值元素 | 顺序表、遍历查找、覆盖删除 | ⭐ |
 
-- 使用 **顺序表（SqList）** 实现线性表，基于静态数组
-- 算法实现与测试代码分离，便于复用
-- 包含基础输入输出验证
+> 💡 **持续更新中...** 每完成一章会同步更新题目清单。
 
-## 参考
+---
 
-- 王道论坛：《数据结构》考研复习指导
-- 408 计算机学科专业基础综合考试大纲
+## 🎯 代码规范
+
+- 数据结构采用 **顺序表（`SqList`）** 实现，基于静态数组
+- 算法函数与测试代码分离，便于直接复用
+- 关键步骤附带注释，方便对照教材理解
+
+---
+
+## 📖 参考资料
+
+- [王道论坛 — 数据结构考研复习指导](https://www.cskaoyan.com/)
+- [408 计算机学科专业基础综合考试大纲](https://www.neea.edu.cn/)
+- [cppreference — C++ 中文文档](https://zh.cppreference.com/)
+
+---
+
+<div align="center">
+
+**⭐ 如果对你有帮助，欢迎点个 Star 支持一下！**
+
+</div>
