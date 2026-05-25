@@ -20,25 +20,19 @@
 
 ---
 
-## 📁 项目结构
+## 📁 项目目录
 
-```
-DataStructuresLearn/
-├── 📂 Start/                    # 入门热身
-│   └── Fibonac.cpp              # 斐波那契数列（递归 vs 迭代性能对比）
-│
-├── 📂 LinearList/               # 第二章 · 线性表
-│   └── MinValueDel.cpp          # 删除顺序表中的最小值元素
-│
-├── 📂 StackQueue/               # 第三章 · 栈和队列（待补充）
-├── 📂 Tree/                     # 第四章 · 树与二叉树（待补充）
-├── 📂 Graph/                    # 第五章 · 图（待补充）
-├── 📂 Search/                   # 第六章 · 查找（待补充）
-├── 📂 Sort/                     # 第七章 · 排序（待补充）
-│
-├── CMakeLists.txt               # CMake 构建配置
-└── .gitignore                   # Git 忽略规则（已屏蔽 macOS 屎山文件）
-```
+- 入门热身
+  - [斐波那契数列](Start/Fibonac.cpp) — 递归 vs 迭代、时间复杂度分析、性能测试
+- 线性表
+  - [删除顺序表最小值元素](LinearList/01MinValueDel.cpp) — 遍历查找、覆盖删除
+  - [顺序表逆置](LinearList/02ListReverser.cpp) — 双指针交换、空间复杂度 O(1)
+- 栈与队列（待补充）
+- 字符串（待补充）
+- 树与二叉树（待补充）
+- 图（待补充）
+- 排序（待补充）
+- 查找（待补充）
 
 ---
 
@@ -77,24 +71,6 @@ cmake .. && make
 1. 打开 CLion → `File` → `Open`
 2. 选择项目根目录，CLion 自动识别 `CMakeLists.txt`
 3. 点击右上角 ▶️ 运行按钮即可
-
----
-
-## 📋 题目清单
-
-### 🌱 Start — 入门
-
-| 文件 | 题目 | 核心知识点 | 难度 |
-|:----:|------|-----------|:----:|
-| [Fibonac.cpp](Start/Fibonac.cpp) | 斐波那契数列 | 递归 vs 迭代、时间复杂度分析、性能测试 | ⭐ |
-
-### 📏 LinearList — 线性表
-
-| 文件 | 题目 | 核心知识点 | 难度 |
-|:----:|------|-----------|:----:|
-| [MinValueDel.cpp](LinearList/01MinValueDel.cpp) | 删除顺序表最小值元素 | 顺序表、遍历查找、覆盖删除 | ⭐ |
-
-> 💡 **持续更新中...** 每完成一章会同步更新题目清单。
 
 ---
 
