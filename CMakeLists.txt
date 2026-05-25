@@ -4,4 +4,5 @@ project(DataStructuresLearn)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(DataStructuresLearn Start/Fibonac.cpp
-        "LinearList/MinValueDel.cpp")
+        "LinearList/01MinValueDel.cpp"
+        LinearList/2ListReverser.cpp)

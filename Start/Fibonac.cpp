@@ -1,3 +1,7 @@
+/*
+ *用递归和非递归两种方法计算斐波那契数列的第n项，n为用户输入的整数。
+ *并计算时间复杂度
+*/
 #include <iostream>
 #include <time.h>
 #include <iomanip>

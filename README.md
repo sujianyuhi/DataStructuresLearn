@@ -92,7 +92,7 @@ cmake .. && make
 
 | 文件 | 题目 | 核心知识点 | 难度 |
 |:----:|------|-----------|:----:|
-| [MinValueDel.cpp](LinearList/MinValueDel.cpp) | 删除顺序表最小值元素 | 顺序表、遍历查找、覆盖删除 | ⭐ |
+| [MinValueDel.cpp](LinearList/01MinValueDel.cpp) | 删除顺序表最小值元素 | 顺序表、遍历查找、覆盖删除 | ⭐ |
 
 > 💡 **持续更新中...** 每完成一章会同步更新题目清单。
 
