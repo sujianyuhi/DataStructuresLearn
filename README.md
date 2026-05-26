@@ -25,7 +25,7 @@
 | 章节 | 进度 | 状态 |
 |:----:|:----:|:----:|
 | 🌱 入门热身 | 1 / 1 | ✅ 已完成 |
-| 📏 线性表 | 3 / ~15 | 🚧 进行中 |
+| 📏 线性表 | 4 / ~15 | 🚧 进行中 |
 | 🥞 栈与队列 | 0 / ~12 | ⏳ 待开始 |
 | 🔤 字符串 | 0 / ~8 | ⏳ 待开始 |
 | 🌲 树与二叉树 | 0 / ~20 | ⏳ 待开始 |
@@ -50,6 +50,7 @@
 | 1 | 删除顺序表最小值元素 | [01MinValueDel.cpp](LinearList/01MinValueDel.cpp) | 顺序表遍历、查找最小值、覆盖删除 | ⭐ |
 | 2 | 顺序表逆置 | [02ListReverser.cpp](LinearList/02ListReverser.cpp) | 双指针交换、原地逆置、空间复杂度 O(1) | ⭐ |
 | 3 | 删除所有值为 x 的元素 | [03DelAllX.cpp](LinearList/03DelAllX.cpp) | 双指针覆盖、保序删除、时空复杂度 O(n)/O(1) | ⭐ |
+| 4 | 删除值在 s~t 之间的所有元素 | [04DeleteBetweenRange.cpp](LinearList/04DeleteBetweenRange.cpp) | 区间删除、边界检查、双指针覆盖 | ⭐ |
 
 ### 🥞 Stack & Queue — 栈与队列
 
