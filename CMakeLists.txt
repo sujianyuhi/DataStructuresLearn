@@ -7,4 +7,5 @@ add_executable(DataStructuresLearn Start/Fibonac.cpp
         "LinearList/01MinValueDel.cpp"
         LinearList/02ListReverser.cpp
         LinearList/03DelAllX.cpp
-        LinearList/04DeleteBetweenRange.cpp)
+        LinearList/04DeleteBetweenRange.cpp
+        LinearList/05RemoveDuplicate.cpp)
