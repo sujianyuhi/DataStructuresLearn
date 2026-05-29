@@ -57,6 +57,9 @@
 | 6 | 合并两个有序顺序表 | [06MergeTwoOrderedList.cpp](LinearList/SeqList/06MergeTwoOrderedList.cpp) | 双路归并、三指针、有序表合并 | ⭐⭐ |
 | 7 | 交换两段线性表的位置 | [07SwapTwoList.cpp](LinearList/SeqList/07SwapTwoList.cpp) | 三次逆置法、区间翻转、原地交换 | ⭐⭐ |
 | 8 | 折半查找并插入保持有序 | [08SearchAndInsert.cpp](LinearList/SeqList/08SearchAndInsert.cpp) | 折半查找、插入排序、有序表维护 | ⭐⭐ |
+| 9 | 查找三个有序数组的公共元素 | [09FindThreeCommon.cpp](LinearList/SeqList/09FindThreeCommon.cpp) | 三指针法、多路归并、公共元素 | ⭐⭐ |
+| 10 | 数组循环左移 p 位（2010 统考真题） | [10LoopLeftShift.cpp](LinearList/SeqList/10LoopLeftShift.cpp) | 三次逆置法、原地翻转、经典真题 | ⭐⭐⭐ |
+| 11 | 两个有序数组的中位数（2011 统考真题） | [11TwoArrMid.cpp](LinearList/SeqList/11TwoArrMid.cpp) | 折半查找、区间舍弃、统考真题 | ⭐⭐⭐ |
 
 #### 2.2 链表
 
