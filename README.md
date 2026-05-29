@@ -47,14 +47,14 @@
 
 | 题号 | 题目 | 文件 | 核心知识点 | 难度 |
 |:----:|------|:----:|-----------|:----:|
-| 1 | 删除顺序表最小值元素 | [01MinValueDel.cpp](LinearList/01MinValueDel.cpp) | 顺序表遍历、查找最小值、覆盖删除 | ⭐ |
-| 2 | 顺序表逆置 | [02ListReverser.cpp](LinearList/02ListReverser.cpp) | 双指针交换、原地逆置、空间复杂度 O(1) | ⭐ |
-| 3 | 删除所有值为 x 的元素 | [03DelAllX.cpp](LinearList/03DelAllX.cpp) | 双指针覆盖、保序删除、时空复杂度 O(n)/O(1) | ⭐ |
-| 4 | 删除值在 s~t 之间的所有元素 | [04DeleteBetweenRange.cpp](LinearList/04DeleteBetweenRange.cpp) | 区间删除、边界检查、双指针覆盖 | ⭐ |
-| 5 | 删除有序顺序表重复元素 | [05RemoveDuplicate.cpp](LinearList/05RemoveDuplicate.cpp) | 有序表去重、双指针、原地修改 | ⭐ |
-| 6 | 合并两个有序顺序表 | [06MergeTwoOrderedList.cpp](LinearList/06MergeTwoOrderedList.cpp) | 双路归并、三指针、有序表合并 | ⭐⭐ |
-| 7 | 交换两段线性表的位置 | [07SwapTwoList.cpp](LinearList/07SwapTwoList.cpp) | 三次逆置法、区间翻转、原地交换 | ⭐⭐ |
-| 8 | 折半查找并插入保持有序 | [08SearchAndInsert.cpp](LinearList/08SearchAndInsert.cpp) | 折半查找、插入排序、有序表维护 | ⭐⭐ |
+| 1 | 删除顺序表最小值元素 | [01MinValueDel.cpp](LinearList/SeqList/01MinValueDel.cpp) | 顺序表遍历、查找最小值、覆盖删除 | ⭐ |
+| 2 | 顺序表逆置 | [02ListReverser.cpp](LinearList/SeqList/02ListReverser.cpp) | 双指针交换、原地逆置、空间复杂度 O(1) | ⭐ |
+| 3 | 删除所有值为 x 的元素 | [03DelAllX.cpp](LinearList/SeqList/03DelAllX.cpp) | 双指针覆盖、保序删除、时空复杂度 O(n)/O(1) | ⭐ |
+| 4 | 删除值在 s~t 之间的所有元素 | [04DeleteBetweenRange.cpp](LinearList/SeqList/04DeleteBetweenRange.cpp) | 区间删除、边界检查、双指针覆盖 | ⭐ |
+| 5 | 删除有序顺序表重复元素 | [05RemoveDuplicate.cpp](LinearList/SeqList/05RemoveDuplicate.cpp) | 有序表去重、双指针、原地修改 | ⭐ |
+| 6 | 合并两个有序顺序表 | [06MergeTwoOrderedList.cpp](LinearList/SeqList/06MergeTwoOrderedList.cpp) | 双路归并、三指针、有序表合并 | ⭐⭐ |
+| 7 | 交换两段线性表的位置 | [07SwapTwoList.cpp](LinearList/SeqList/07SwapTwoList.cpp) | 三次逆置法、区间翻转、原地交换 | ⭐⭐ |
+| 8 | 折半查找并插入保持有序 | [08SearchAndInsert.cpp](LinearList/SeqList/08SearchAndInsert.cpp) | 折半查找、插入排序、有序表维护 | ⭐⭐ |
 
 ### 🥞 Stack & Queue — 栈与队列
 
