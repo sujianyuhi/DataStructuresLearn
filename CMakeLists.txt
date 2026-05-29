@@ -11,4 +11,7 @@ add_executable(DataStructuresLearn Start/Fibonac.cpp
         LinearList/SeqList/05RemoveDuplicate.cpp
         LinearList/SeqList/06MergeTwoOrderedList.cpp
         LinearList/SeqList/07SwapTwoList.cpp
-        LinearList/SeqList/08SearchAndInsert.cpp)
+        LinearList/SeqList/08SearchAndInsert.cpp
+        LinearList/SeqList/09FindThreeCommon.cpp
+        LinearList/SeqList/10LoopLeftShift.cpp
+        LinearList/SeqList/11TwoArrMid.cpp)
