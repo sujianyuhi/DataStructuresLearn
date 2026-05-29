@@ -45,6 +45,8 @@
 
 ### 📏 LinearList — 线性表
 
+#### 2.1 顺序表
+
 | 题号 | 题目 | 文件 | 核心知识点 | 难度 |
 |:----:|------|:----:|-----------|:----:|
 | 1 | 删除顺序表最小值元素 | [01MinValueDel.cpp](LinearList/SeqList/01MinValueDel.cpp) | 顺序表遍历、查找最小值、覆盖删除 | ⭐ |
@@ -55,6 +57,10 @@
 | 6 | 合并两个有序顺序表 | [06MergeTwoOrderedList.cpp](LinearList/SeqList/06MergeTwoOrderedList.cpp) | 双路归并、三指针、有序表合并 | ⭐⭐ |
 | 7 | 交换两段线性表的位置 | [07SwapTwoList.cpp](LinearList/SeqList/07SwapTwoList.cpp) | 三次逆置法、区间翻转、原地交换 | ⭐⭐ |
 | 8 | 折半查找并插入保持有序 | [08SearchAndInsert.cpp](LinearList/SeqList/08SearchAndInsert.cpp) | 折半查找、插入排序、有序表维护 | ⭐⭐ |
+
+#### 2.2 链表
+
+> ⏳ 待补充...
 
 ### 🥞 Stack & Queue — 栈与队列
 
