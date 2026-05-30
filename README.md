@@ -25,7 +25,7 @@
 | 章节 | 进度 | 状态 |
 |:----:|:----:|:----:|
 | 🌱 入门热身 | 1 / 1 | ✅ 已完成 |
-| 📏 线性表 | 11 / ~15 | 🚧 进行中 |
+| 📏 线性表 | 15 / 15 | ✅ 已完成 |
 | 🥞 栈与队列 | 0 / ~12 | ⏳ 待开始 |
 | 🔤 字符串 | 0 / ~8 | ⏳ 待开始 |
 | 🌲 树与二叉树 | 0 / ~20 | ⏳ 待开始 |
@@ -60,6 +60,10 @@
 | 9 | 查找三个有序数组的公共元素 | [09FindThreeCommon.cpp](LinearList/SeqList/09FindThreeCommon.cpp) | 三指针法、多路归并、公共元素 | ⭐⭐ |
 | 10 | 数组循环左移 p 位（2010 统考真题） | [10LoopLeftShift.cpp](LinearList/SeqList/10LoopLeftShift.cpp) | 三次逆置法、原地翻转、经典真题 | ⭐⭐⭐ |
 | 11 | 两个有序数组的中位数（2011 统考真题） | [11TwoArrMid.cpp](LinearList/SeqList/11TwoArrMid.cpp) | 折半查找、区间舍弃、统考真题 | ⭐⭐⭐ |
+| 12 | 查找数组中的主元素（2013 统考真题） | [12FindMainNum.cpp](LinearList/SeqList/12FindMainNum.cpp) | 摩尔投票法、候选校验、统考真题 | ⭐⭐⭐ |
+| 13 | 未出现的最小正整数（2018 统考真题） | [13FindMinLostInt.cpp](LinearList/SeqList/13FindMinLostInt.cpp) | 原地哈希、下标归位、统考真题 | ⭐⭐⭐ |
+| 14 | 三个有序数组的最小距离三元组（2020 统考真题） | [14ThreeArrMinDis.cpp](LinearList/SeqList/14ThreeArrMinDis.cpp) | 三指针、极差最小化、统考真题 | ⭐⭐⭐ |
+| 15 | 后缀最大乘积（2025 统考真题） | [15SuffixMaxMul.cpp](LinearList/SeqList/15SuffixMaxMul.cpp) | 二重遍历、后缀最大值、统考真题 | ⭐⭐ |
 
 #### 2.2 链表
 
