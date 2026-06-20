@@ -33,6 +33,14 @@ DataStructuresLearn
 MinValueDel
 Fibonac
 
+# Auto-generated executables in problem directories (keep only .cpp source)
+LinearList/SeqList/*
+!LinearList/SeqList/*.cpp
+LinearList/LinkedList/*
+!LinearList/LinkedList/*.cpp
+Start/*
+!Start/*.cpp
+
 # Debug
 *.dSYM/
 *.su

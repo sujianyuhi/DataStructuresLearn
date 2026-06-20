@@ -25,4 +25,11 @@ add_executable(DataStructuresLearn Start/Fibonac.cpp
         LinearList/LinkedList/04_DelBetweenVal.cpp
         LinearList/LinkedList/05_FindCommonNode.cpp
         LinearList/LinkedList/06_SplitABList.cpp
-        LinearList/LinkedList/07_DelRepeatSort.cpp)
+        LinearList/LinkedList/07_DelRepeatSort.cpp
+        LinearList/LinkedList/08_GetCommonSort.cpp
+        LinearList/LinkedList/09_GetIntersection.cpp
+        LinearList/LinkedList/10_IsSubSequence.cpp
+        LinearList/LinkedList/11_CircleDLinkSymmetry.cpp
+        LinearList/LinkedList/12_ConcatCircleDLink.cpp
+        LinearList/LinkedList/13_LocateFreqDLink.cpp
+        LinearList/LinkedList/14_RightShiftNoHead.cpp)

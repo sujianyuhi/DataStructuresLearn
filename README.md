@@ -2,40 +2,63 @@
 
 # 📚 DataStructuresLearn
 
-**王道计算机考研 408 数据结构课程练习题代码实现**
+**王道 408 数据结构 · 课后习题 C++ 实现仓库**
 
 [![C++20](https://img.shields.io/badge/C++-20-00599C?logo=c%2B%2B)](https://en.cppreference.com/w/cpp/20)
 [![CMake](https://img.shields.io/badge/CMake-4.2+-064F8C?logo=cmake)](https://cmake.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/状态-持续更新-brightgreen)](https://github.com/sujianyuhi/DataStructuresLearn/commits/main)
 
 </div>
 
 ---
 
-## ✨ 项目简介
+## 🎯 项目简介
 
-本项目是 [王道计算机考研](https://www.cskaoyan.com/) 408 数据结构课程配套练习题的 **C++ 代码实现**。
+本仓库是个人备考 **408 计算机学科专业基础综合** 过程中，对 **[王道考研数据结构](https://www.cskaoyan.com/)** 课后习题的 **C++20 代码实现**。
 
-涵盖线性表、栈与队列、树与二叉树、图、查找、排序等核心章节，代码力求简洁清晰，适合考研复习与面试准备。
+> 代码按照教材章节组织，强调 **思路清晰、注释完整、可独立运行**，适合考研复习、算法面试以及数据结构初学者参考。
 
----
+涵盖内容：
 
-## 📋 学习进度
-
-| 章节 | 进度 | 状态 |
-|:----:|:----:|:----:|
-| 🌱 入门热身 | 1 / 1 | ✅ 已完成 |
-| 📏 线性表 | 22 / 22 | ✅ 已完成 |
-| 🥞 栈与队列 | 0 / ~12 | ⏳ 待开始 |
-| 🔤 字符串 | 0 / ~8 | ⏳ 待开始 |
-| 🌲 树与二叉树 | 0 / ~20 | ⏳ 待开始 |
-| 🕸️ 图 | 0 / ~15 | ⏳ 待开始 |
-| 🔍 查找 | 0 / ~10 | ⏳ 待开始 |
-| 📊 排序 | 0 / ~12 | ⏳ 待开始 |
+- ✅ 线性表（顺序表 + 链表）
+- ⏳ 栈与队列
+- ⏳ 字符串
+- ⏳ 树与二叉树
+- ⏳ 图
+- ⏳ 查找
+- ⏳ 排序
 
 ---
 
-## 📁 项目目录
+## ✨ 仓库亮点
+
+| 特性 | 说明 |
+|------|------|
+| 🎓 **考研导向** | 每道题对应王道教材章节，标注统考真题来源 |
+| 📝 **思路先行** | 每份源码顶部均包含「题目原文 + 算法思想 + 复杂度分析」 |
+| 🧪 **独立可运行** | 每个 `.cpp` 都附带 `main()` 测试用例，可直接编译验证 |
+| 🏗️ **CMake 构建** | 使用 CMake 4.2+ 管理，支持命令行与 CLion 一键运行 |
+| 🏷️ **难度分级** | 每道题标注 ⭐ ~ ⭐⭐⭐，便于按需学习 |
+
+---
+
+## 📊 学习进度
+
+| 章节 | 题目数 | 进度条 | 状态 |
+|:----:|:------:|:-------|:----:|
+| 🌱 入门热身 | 1 | `████████████████████████████ 100%` | ✅ 已完成 |
+| 📏 线性表 | 29 | `████████████████████████████ 100%` | ✅ 已完成 |
+| 🥞 栈与队列 | ~12 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0%` | ⏳ 待开始 |
+| 🔤 字符串 | ~8 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0%` | ⏳ 待开始 |
+| 🌲 树与二叉树 | ~20 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0%` | ⏳ 待开始 |
+| 🕸️ 图 | ~15 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0%` | ⏳ 待开始 |
+| 🔍 查找 | ~10 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0%` | ⏳ 待开始 |
+| 📊 排序 | ~12 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0%` | ⏳ 待开始 |
+
+---
+
+## 📁 题目目录
 
 ### 🌱 Start — 入门热身
 
@@ -45,7 +68,7 @@
 
 ### 📏 LinearList — 线性表
 
-#### 2.1 顺序表
+#### 2.1 顺序表（15 题）
 
 | 题号 | 题目 | 文件 | 核心知识点 | 难度 |
 |:----:|------|:----:|-----------|:----:|
@@ -65,7 +88,7 @@
 | 14 | 三个有序数组的最小距离三元组（2020 统考真题） | [14ThreeArrMinDis.cpp](LinearList/SeqList/14ThreeArrMinDis.cpp) | 三指针、极差最小化、统考真题 | ⭐⭐⭐ |
 | 15 | 后缀最大乘积（2025 统考真题） | [15SuffixMaxMul.cpp](LinearList/SeqList/15SuffixMaxMul.cpp) | 二重遍历、后缀最大值、统考真题 | ⭐⭐ |
 
-#### 2.2 链表
+#### 2.2 链表（14 题）
 
 | 题号 | 题目 | 文件 | 核心知识点 | 难度 |
 |:----:|------|:----:|-----------|:----:|
@@ -76,6 +99,13 @@
 | 5 | 查找两个单链表的首个公共结点 | [05_FindCommonNode.cpp](LinearList/LinkedList/05_FindCommonNode.cpp) | 求长度差、同步遍历、Y 型链表 | ⭐⭐ |
 | 6 | 链表原地拆分为 A、B 两个子表 | [06_SplitABList.cpp](LinearList/LinkedList/06_SplitABList.cpp) | 奇偶拆分、尾插与头插、原地重组 | ⭐⭐ |
 | 7 | 递增有序链表去重 | [07_DelRepeatSort.cpp](LinearList/LinkedList/07_DelRepeatSort.cpp) | 有序链表、相邻重复、保留单个 | ⭐ |
+| 8 | 求两个递增有序链表的公共元素（生成新链表 C） | [08_GetCommonSort.cpp](LinearList/LinkedList/08_GetCommonSort.cpp) | 双指针归并、尾插建表、不破坏原表 | ⭐⭐ |
+| 9 | 两个递增有序链表求交集（结果存回 A） | [09_GetIntersection.cpp](LinearList/LinkedList/09_GetIntersection.cpp) | 双指针归并、原地复用、释放多余结点 | ⭐⭐ |
+| 10 | 判断 B 是否为 A 的连续子序列 | [10_IsSubSequence.cpp](LinearList/LinkedList/10_IsSubSequence.cpp) | 子串匹配、回溯起点、不带头结点 | ⭐⭐ |
+| 11 | 判断带头结点循环双链表是否对称 | [11_CircleDLinkSymmetry.cpp](LinearList/LinkedList/11_CircleDLinkSymmetry.cpp) | 循环双链表、首尾双指针、对称判定 | ⭐⭐ |
+| 12 | 两个循环双链表拼接为一个 | [12_ConcatCircleDLink.cpp](LinearList/LinkedList/12_ConcatCircleDLink.cpp) | 循环链表、尾结点定位、双向指针修改 | ⭐⭐ |
+| 13 | 带访问频域的双链表 Locate 操作 | [13_LocateFreqDLink.cpp](LinearList/LinkedList/13_LocateFreqDLink.cpp) | 双链表、访问频率排序、LRU 思想 | ⭐⭐⭐ |
+| 14 | 不带头结点单链表循环右移 k 位 | [14_RightShiftNoHead.cpp](LinearList/LinkedList/14_RightShiftNoHead.cpp) | 成环、断环、不带头结点、原地旋转 | ⭐⭐ |
 
 ### 🥞 Stack & Queue — 栈与队列
 
@@ -129,7 +159,7 @@ mkdir build && cd build
 # 3. 生成构建文件 & 编译
 cmake .. && make
 
-# 4. 运行
+# 4. 运行主程序
 ./DataStructuresLearn
 ```
 
@@ -139,13 +169,23 @@ cmake .. && make
 2. 选择项目根目录，CLion 自动识别 `CMakeLists.txt`
 3. 点击右上角 ▶️ 运行按钮即可
 
+### 单独编译某道题目
+
+每道题都是独立可运行的 `.cpp` 文件，也可以单独编译：
+
+```bash
+g++ -std=c++20 LinearList/SeqList/10LoopLeftShift.cpp -o 10LoopLeftShift
+./10LoopLeftShift
+```
+
 ---
 
-## 🎯 代码规范
+## 📝 代码规范
 
-- 数据结构采用 **顺序表（`SqList`）** 实现，基于静态数组
+- 顺序表基于静态数组实现的 **`SqList`**，链表基于标准 **`LNode` / `DNode`** 结构
+- 每份源码顶部包含：**题目原文、算法思想、时间/空间复杂度**
 - 算法函数与测试代码分离，便于直接复用
-- 关键步骤附带注释，方便对照教材理解
+- 关键步骤附带注释，方便对照教材逐行理解
 
 ---
 
@@ -168,6 +208,6 @@ cmake .. && make
 
 <div align="center">
 
-**⭐ 如果对你有帮助，欢迎点个 Star 支持一下！**
+**⭐ 如果本仓库对你有帮助，欢迎点个 Star 支持一下！**
 
 </div>
