@@ -25,7 +25,7 @@
 | 章节 | 进度 | 状态 |
 |:----:|:----:|:----:|
 | 🌱 入门热身 | 1 / 1 | ✅ 已完成 |
-| 📏 线性表 | 15 / 15 | ✅ 已完成 |
+| 📏 线性表 | 22 / 22 | ✅ 已完成 |
 | 🥞 栈与队列 | 0 / ~12 | ⏳ 待开始 |
 | 🔤 字符串 | 0 / ~8 | ⏳ 待开始 |
 | 🌲 树与二叉树 | 0 / ~20 | ⏳ 待开始 |
@@ -67,7 +67,15 @@
 
 #### 2.2 链表
 
-> ⏳ 待补充...
+| 题号 | 题目 | 文件 | 核心知识点 | 难度 |
+|:----:|------|:----:|-----------|:----:|
+| 1 | 删除所有值为 x 的结点 | [01_DelAllX.cpp](LinearList/LinkedList/01_DelAllX.cpp) | 前驱指针、条件删除、释放结点 | ⭐ |
+| 2 | 删除唯一最小值结点 | [02_DelMinNode.cpp](LinearList/LinkedList/02_DelMinNode.cpp) | 遍历找最小、前驱定位、释放结点 | ⭐ |
+| 3 | 单链表原地逆置 | [03_ReverseList.cpp](LinearList/LinkedList/03_ReverseList.cpp) | 头插法、原地逆置、空间复杂度 O(1) | ⭐ |
+| 4 | 删除值在 minVal~maxVal 之间的所有元素 | [04_DelBetweenVal.cpp](LinearList/LinkedList/04_DelBetweenVal.cpp) | 区间删除、双指针、释放结点 | ⭐ |
+| 5 | 查找两个单链表的首个公共结点 | [05_FindCommonNode.cpp](LinearList/LinkedList/05_FindCommonNode.cpp) | 求长度差、同步遍历、Y 型链表 | ⭐⭐ |
+| 6 | 链表原地拆分为 A、B 两个子表 | [06_SplitABList.cpp](LinearList/LinkedList/06_SplitABList.cpp) | 奇偶拆分、尾插与头插、原地重组 | ⭐⭐ |
+| 7 | 递增有序链表去重 | [07_DelRepeatSort.cpp](LinearList/LinkedList/07_DelRepeatSort.cpp) | 有序链表、相邻重复、保留单个 | ⭐ |
 
 ### 🥞 Stack & Queue — 栈与队列
 
