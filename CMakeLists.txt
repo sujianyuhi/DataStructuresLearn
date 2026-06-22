@@ -32,4 +32,10 @@ add_executable(DataStructuresLearn Start/Fibonac.cpp
         LinearList/LinkedList/11_CircleDLinkSymmetry.cpp
         LinearList/LinkedList/12_ConcatCircleDLink.cpp
         LinearList/LinkedList/13_LocateFreqDLink.cpp
-        LinearList/LinkedList/14_RightShiftNoHead.cpp)
+        LinearList/LinkedList/14_RightShiftNoHead.cpp
+        LinearList/LinkedList/15_HasCycleFastSlow.cpp
+        LinearList/LinkedList/16_MaxTwinSum.cpp
+        LinearList/LinkedList/17_FindKFromEnd.cpp
+        LinearList/LinkedList/18_FindCommonSuffix.cpp
+        LinearList/LinkedList/19_DelAbsDuplicate.cpp
+        LinearList/LinkedList/20_RearrangeList.cpp)
